@@ -1,0 +1,29 @@
+@use "../../variables" as *;
+
+.invite__btn {
+
+  background-color: $grey !important;
+  border: $green 1px solid !important;
+  color: $green !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.btn_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: 5px;
+
+  h3 {
+    margin: 5px;
+  }
+}
+
+.copy {
+  margin-left: 4px;
+  width: 57px !important;
+}

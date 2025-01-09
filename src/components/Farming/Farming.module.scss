@@ -1,0 +1,27 @@
+@use "../../variables" as *;
+
+.farming {
+  display: flex;
+  justify-content: center;
+  //margin-top: 5px;
+
+
+  &__btn {
+    max-width: 400px;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    background-color: $grey;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 20px;
+    border-radius: 10px;
+    border: $green 1px solid !important;
+
+    i{
+      margin-right: 5px;
+    }
+  }
+}

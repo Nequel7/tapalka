@@ -1,0 +1,23 @@
+.clicker {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+
+
+  img {
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: none;
+    //pointer-events: none;
+
+    @media (max-height: 620px) {
+      position: relative;
+      width: 250px;
+      font-weight: bold;
+    }
+  }
+
+
+}

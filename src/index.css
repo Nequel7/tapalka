@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+
+    background-color: #0f0f0f;
+    color: #0f0f0f;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.scrollable {
+    height: 100vh; /* Задайте высоту контейнера */
+    overflow-y: scroll; /* Гарантирует возможность прокрутки */
+    scrollbar-width: none; /* Для Firefox */
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none; /* Для Chrome и Safari */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 55px);
+    padding: 5px 0;
+    /*margin-top: 55px;*/
+    margin-bottom: 55px;
+}
+
+
+
+/* {
+//  outline: 2px solid rgb(72, 4, 157);
+//}

@@ -1,0 +1,25 @@
+@use "../../variables" as *;
+
+.connect {
+  padding: 10px;
+  background-color: #202020;
+  color: white;
+  align-items: center;
+  justify-items: center;
+  border-radius: 10px;
+  border: $green 1px solid;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__btn {
+    align-self: center;
+    color: $black !important;
+    background-color: white !important;
+    margin-top: 20px;
+  }
+}

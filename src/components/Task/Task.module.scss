@@ -1,0 +1,91 @@
+@use "../../variables" as *;
+
+.task {
+  background-color: #202020;
+  border-radius: 10px;
+  color: white;
+  //display: grid;
+  //grid-template-columns: 1fr 2fr;
+  padding: 10px 0;
+  margin-bottom: 8px;
+
+  &__info {
+    //display: grid;
+    //grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  img {
+    //padding-right: 20px;
+    //padding-left: 10px;
+  }
+
+  p {
+    margin: 5px;
+  }
+
+  &__btn {
+    background-color: $grey !important;
+    border: $green 1px solid !important;
+    border-radius: 10px !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 40px;
+    //padding: 5px !important;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+
+    h6{
+      color: $green;
+    }
+
+    &__profit{
+      display: flex;
+      flex-direction: row;
+
+      h5{
+        margin-right: 5px;
+      }
+
+      span{
+        color: $green;
+      }
+    }
+
+    p, h5 {
+      margin-left: 0;
+      margin-bottom: 5px;
+    }
+
+  }
+
+  &__icon {
+    max-width: 100px !important;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      margin: 0 10px;
+      font-size: 25px;
+    }
+
+
+  }
+}

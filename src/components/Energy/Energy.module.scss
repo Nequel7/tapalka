@@ -1,0 +1,37 @@
+.energy {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 5px;
+  @media (max-height: 620px) {
+    margin-top: 0;
+  }
+
+  &__amount {
+    font-size: medium;
+  }
+
+  &__progress_bar {
+    width: 100%;
+    flex-grow: 1;
+  }
+
+
+  &__icon {
+    display: flex;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+}
+

@@ -1,0 +1,28 @@
+.container2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    background-color: #3498db;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,11 @@
+@use "../../variables" as *;
+
+.alert {
+  background-color: $grey !important;
+  border-color: $grey !important;
+  color: $white !important;
+
+  &__icon{
+    color: $green !important;
+  }
+}
